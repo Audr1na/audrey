@@ -1,17 +1,21 @@
 body{
 	margin:0 auto;
 	max-width: 60em;
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Lucinda Sans Unicode", "Arial", sans-serif;
 	line-height: 1.5;
 	padding: 2em 1em;
-	color: #000;
+	color: #333;
 	background-color: #abbe6d
 }
 
-h1 {
+#header {
 	color: #ffffff;
-	font-family: "Palatino Linotype", "Palatino", serif;
-	font-size: 30pt;
+	font-family: "Copperplate";
+}
+
+h2 {
+	color: #233B00;
+	font-family: "Oxygen", "Palatino", serif;
 }
 
 ul {
