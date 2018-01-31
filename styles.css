@@ -1,21 +1,18 @@
 body{
 	margin:0 auto;
 	max-width: 60em;
-	font-family: "Lucinda Sans Unicode", "Arial", sans-serif;
+	font-family: "Raleway", "Arial", sans-serif;
 	line-height: 1.5;
 	padding: 2em 1em;
 	color: #333;
 	background-color: #abbe6d
 }
 
-#header {
-	color: #ffffff;
-	font-family: "Copperplate";
-}
 
 h2 {
 	color: #233B00;
-	font-family: "Oxygen", "Palatino", serif;
+	font-family: "Oswald", "Palatino", sans-serif;
+	font-size: 30pt;
 }
 
 ul {
@@ -36,6 +33,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Oswald", "Palatino", sans-serif;
+    font-size: 18pt;
 }
 
 li a:hover {
@@ -47,13 +46,20 @@ li a.active {
     color: white;
 }
 
+#header {
+	color: #ffffff;
+	font-family: "Amatic SC", cursive;
+	font-size: 40pt;
+	font-weight: 200;
+}
+
 header {
 	background-image: url("sean-mcauliffe-12857.jpg");
 	background-color: #ffffff;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	line-height: 1.2;
-	padding: 1em;
+	line-height: 0.25;
+	padding: 0.25em;
 	text-align: center;
 }
