@@ -5,9 +5,12 @@ body{
 	line-height: 1.5;
 	padding: 2em 1em;
 	color: #333;
-	background-color: #abbe6d
+	background-color: lightgray
 }
 
+.href {
+    color: white;
+}
 
 .polaroid {
     width: 70%;
@@ -42,61 +45,15 @@ h2 {
 	font-size: 30pt;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6A932B;
-}
 
-li {
-    float: left;
-}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "Oswald", "Palatino", sans-serif;
-    font-size: 18pt;
-}
-
-li a:hover {
-    background-color: #233B00;/*hunter green*/
-}
-
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-#header {
-	color: #ffffff;
-	font-family: "Amatic SC", cursive;
-	font-size: 40pt;
-	font-weight: 200;
-}
-
-header {
-	background-image: url("sean-mcauliffe-12857.jpg");
-	background-color: #ffffff;
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	line-height: 0.25;
-	padding: 0.25em;
-	text-align: center;
-}
 
 .footer {
     position: fixed;
     left: 0;
-    bottom: 1;
+    bottom: 0;
     width: 100%;
-    background-color: #233B00;
-    color: white;
+    background-color: black;
+    color: #555;
     text-align: center;
 }
