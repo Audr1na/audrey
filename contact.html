@@ -13,7 +13,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
 	
-	<title>Meet Audrey</title>
+	<title>Contact Me</title>
 </head>
 
 <body background="images/sean-mcauliffe-12857.jpg" width="100px">
@@ -30,24 +30,43 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="family.html">Family</a></li>
       <li><a href="hobbies.html">Hobbies</a></li>
       <li><a href="professional.html">Career</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
+      <li><a href="#">Contact Me</a></li>
     </ul>
   </div>
   </div>
 </nav>
 
-<div class="container-fluid bg-1 text-center">
-    <img class="img-circle" src="images/uw.headshot.jpg" width="400px" alt="headshot">
-    <header id="header"><h1>Meet Audrey Schmook</h1></header>
-    <p>Welcome to my personal website, which I created as homework for OK Coders <a href="http://okcoders.com/apply/">Coding Bootcamp</a>. Yup, that's right - I wrote the code for this website! I don't know about you, but I'm pretty impressed. Now that I'm learning how to use CSS and Bootstrap, this website is looking a lot better!</p>
-    <p>While I'm new to the programming world, I've always had an interest in technology. My professional background is in the nonprofit sector, where I've done operations, volunteer management, event planning, and fundraising.</p>
-    <p>My dream job would be part-time (until my baby goes to kindergarden in a few years) and for a company that has a conscience. Other than that, I'm open. Check out my work history on the <a href="professional.html"> "Career"</a> page and please <a href="contact.html">reach out</a> if I'd be a good fit for your company!</p>
+<div class="container-fluid bg-1">
+  <h2 class="text-center">CONTACT ME</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p></p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Norman, OK</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> audrey.schmook@gmail.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
 </div>
-
 
 <div class="footer">
   <p>Website created by<a href="mailto: audrey.schmook@gmail.com"> Audrey Schmook</a></p>
